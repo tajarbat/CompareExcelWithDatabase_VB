@@ -1,0 +1,16 @@
+﻿USE [POC]
+GO
+
+/****** Object:  Table [dbo].[CompareMe]    Script Date: 03-Feb-22 9:04:38 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CompareMe](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[fname] [varchar](50) NOT NULL,
+	[lname] [varchar](50) NOT NULL
+) ON [PRIMARY]
+GO
